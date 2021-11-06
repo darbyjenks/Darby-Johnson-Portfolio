@@ -1,0 +1,21 @@
+header nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(189, 212, 124);
+    width:1000px;
+    margin:0 auto
+}
+
+/* .name {
+    width: 30%;
+    position:absolute;
+} */
+
+.nav-list{
+ display:flex;
+ list-style-type: none;
+}
+
+.nav-list li{
+    padding: 1em;
+}
