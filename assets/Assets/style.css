@@ -1,3 +1,4 @@
+
 .container{
     width: 85%;
     /* sets an auto margin on all sides so everything comes in */
@@ -29,6 +30,7 @@ header nav {
     float: right;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
+    display: flex;
 }
 
 header nav ul {
@@ -69,12 +71,15 @@ a {
     /* background-repeat: no-repeat; */
     /* background-position: center center; */
     list-style: none;
-    display: -ms-inline-flexbox;
+    /* display: -ms-inline-flexbox; */
     padding: 0;
     margin: 0;
+    display: flex;
+    flex-wrap: wrap;
     
 }
 #work img {
+    display: flex;
     float: left;
     width:  200px;
     height: 200px;
@@ -83,11 +88,13 @@ a {
     margin: 0;
     display: -ms-inline-flexbox;
     border: 2px black solid;
+    flex-wrap: wrap;
 }
 
 footer h2 {
     display: inline-block;
     font-size: 40px;
+    padding: 50px;
 }
 
 footer ul{
@@ -97,6 +104,7 @@ footer ul{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
     list-style-type: none;
+    padding: 65px;
 }
 
 footer ul li {
@@ -110,8 +118,8 @@ footer ul li {
 } */
 
 body{
-    background-color: #f4f4f4;
-    color: #555555;
+    background-color: rgb(122, 189, 122);
+    color: black;
 
     font-family: Arial, Helvetica, sans-serif;
     font-size: 16px;
@@ -121,6 +129,10 @@ body{
 
     line-height:1.6em;
     margin:0;
+    /* background-image: url('../Assets/images/aboutMe.jpg');
+    background-repeat: no-repeat;
+    /* background-position: 100px, 200px; */
+    /* background-position: center center; */ */
 
 }
 .button{
@@ -138,15 +150,12 @@ body{
 .fix-me{
     position: fixed;
     top: 100px;
-    font-size: 15px;
+    font-size: 20px;
     float: left;
     padding: 0;
     margin:0;
 }
 
-#about-me{
-    background-image: url('assets/Assets/images/aboutMe.jpg)';
-}
 
 
 
