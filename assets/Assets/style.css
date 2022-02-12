@@ -60,17 +60,18 @@ a {
     display: inline-block;
 }
 
-#about-me{
+/* #about-me{
     background: rgb(163, 177, 159);
-}
+} */
 
 #about-me p{
     margin:20px;
     padding:15px;
     font: normal 16px Arial, Helvetica, sans-serif;
-    background: rgb(163, 177, 159);
+    /* background: rgb(163, 177, 159); */
     line-height:1.6em;
     flex-wrap: wrap;
+    font-weight: bold;
 }
 
 aside{
@@ -112,7 +113,7 @@ aside{
 }
 
 #contact-me{
-    background: rgb(163, 177, 159);
+    /* background: rgb(163, 177, 159); */
 }
 
 #contact-me h2 {
@@ -161,7 +162,7 @@ body{
 
 }
 .button{
-    background-color: rgb(163, 177, 159);
+    background-color: rgb(122, 124, 124);
     color: #fff;
     font-weight: bold;
     padding: 10px 15px;
