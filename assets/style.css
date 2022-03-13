@@ -1,5 +1,5 @@
 body{
-    background-image: url("/images/background.jpg");
+    background-image: url("background.jpg");
     font-family: 'Quicksand', sans-serif;
     font-family: 'Source Sans 3', sans-serif;
     opacity:95%;
